@@ -26,7 +26,7 @@ Other things to consider:
 
 **PGA**: Similar to the CPU load and SGA. The surviving nodes should also be able to accommodate the PGA requirements of the failing nodes.
 
-The node failure/reduce scenarios can be modeled with the SizingWorksheet [https://github.com/karlarao/provisioning_worksheet](https://github.com/karlarao/provisioning_worksheet). See the examples folder "SizingSGA.xlsm"
+The node failure/reduce scenarios can be modeled with the SizingWorksheet [https://github.com/karlarao/sizing_worksheet](https://github.com/karlarao/sizing_worksheet). See the examples folder "SizingSGA.xlsm"
 
 - Let's say we have a database on a X5-2 half rack with:
 	- 36 CPUs requirement (50% x 72CPUs) spread out across the four nodes
